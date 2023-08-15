@@ -1,4 +1,227 @@
-*
+
+body
 {
-    margin: 0;
+    background-color: #6747ba;
+    font-family: 'Bricolage Grotesque', sans-serif;
+}
+.container-portfolio
+{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+aside
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: 5px solid#6747ba;
+    border-radius: 20px;
+    width: 40%;
+    float: left;
+    background-color: whitesmoke;
+    align-items: flex-start;
+}
+.rightside-container
+{
+    border: 5px solid #6747ba;
+    align-items: flex-end;
+    width: 60%;
+    flex-wrap: wrap;
+    float: right;
+    border-radius: 20px;
+    background-color: whitesmoke;
+}
+
+#name
+{
+color: black;
+display: flex;
+flex-wrap: wrap;
+width: 40%;
+margin-top: 120px;
+margin-left: 50px;
+font-size:xx-large;
+}
+#project-heading
+{
+  font-weight: bold;
+}
+img{
+  margin-left: 50px;
+  margin-top: 50px;
+  width:200px ;
+  height: 200px;
+  border: solid gray;
+  border-radius:600px;
+}
+#para
+{
+  margin-left: 20px;
+  margin-right: 20px;
+}
+#list
+{
+  margin-left: 0%;
+}
+#skill
+{
+  margin-top: 50px;
+  margin-left: 30%;
+}
+.skills
+{
+display: flex;
+flex-direction: column;
+justify-content: space-between;  
+flex-wrap: wrap;
+margin-left: 0px;
+margin-right: 20px;
+margin-top: 50px;
+}
+ul 
+{
+  list-style: none;
+}
+#head
+{
+  margin-top: 5%;
+  margin-left: 30%;
+  font-size:xx-large;
+}
+#abtme
+{
+  margin-top: 5%;
+  margin-left: 30%;
+  font-size:xx-large;
+}
+#project-heading
+{
+  margin-top: 10%;
+  margin-left: 155px;
+  margin-right: 20px;
+  font-size:xx-large;
+}
+#project-details
+{
+  margin-left: 70px;
+}
+#project-details-bullets
+{
+  margin-right: 5px;
+  list-style: circle;
+}
+#certificate-heading
+{
+  margin-top: 10%;
+  margin-left: 155px;
+  margin-right: 20px;
+  font-size:xx-large;  
+}
+#certificate-details
+{
+  margin-left: 70px;
+  margin-bottom: 50px;
+}
+#icon-container
+{
+  display: flex;
+  border: 3px solid gray;
+  border-radius: 10px;
+  margin-top: 70px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+.experience-container
+{
+  border: 3px solid gray;
+  border-radius: 10px;
+  margin-top: 50px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+.skills-container
+{
+  border: 3px solid gray;
+  border-radius: 10px;
+  margin-top: 50px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+.details-container 
+{
+  border: 3px solid gray;
+  border-radius: 10px;
+  margin-top: 30px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+.certificate-container
+{
+  width: 100%;
+  border: 3px solid gray;
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+.project-container
+{
+  width: 100%;
+  border: 3px solid gray;
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+.education-container
+{
+  width: 100%;
+  border: 3px solid gray;
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+#mail 
+{
+  margin-left: 30px;
+  padding-top: 50px;
+  font-family: 'Bricolage Grotesque', sans-serif;
+  font-weight: bold;
+
+}
+#linked-in
+{
+  margin-left: 50px;
+  padding-top: 50px;
+  font-family: 'Bricolage Grotesque', sans-serif;
+  font-weight: bold;
+
+}
+#github
+{
+  margin-left: 50px;
+  padding-top: 50px;
+  font-family: 'Bricolage Grotesque', sans-serif;
+  font-weight: bold;
+
+}
+#mobile-number
+{
+  margin-left: 50px;
+  padding-top: 50px;
+  font-family: 'Bricolage Grotesque', sans-serif;
+  font-weight: bold;
+}
+span
+{
+  font-family: 'Bricolage Grotesque', sans-serif;
 }
